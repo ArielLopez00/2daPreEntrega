@@ -39,10 +39,6 @@
     object-fit: cover;
 }
 
-.sectionIndex {
-    margin: 400px;
-}
-
 .footer {
     background-color: rgb(27, 27, 27);
     margin-top: 10rem;
@@ -83,4 +79,10 @@
     margin-top: 2rem;
     color: rgb(200, 200, 200);
     text-align: center;
+}
+
+
+.sectionExperiencias {
+    margin-top: 10rem;
+    margin-bottom: 15rem;
 }
