@@ -17,7 +17,7 @@
 </head>
 
 <body class="body">
-    <header>
+    <header class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -30,7 +30,7 @@
                 <div class="collapse navbar-collapse m-5 p-5" id="navbarNav">
                     <ul class="navbar-nav w-100 justify-content-end fs-4">
                         <li class="nav-item">
-                            <a class="nav-link text-white fw-bold" href="../index.html">Inicio</a>
+                            <a class="nav-link text-white fw-bold" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white fw-bold" href="./nosotros.html">Nosotros</a>
@@ -39,7 +39,7 @@
                             <a class="nav-link text-white fw-bold" href="./pilotos.html">Pilotos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white fw-bold" href="#">Galería</a>
+                            <a class="nav-link text-white fw-bold" href="./galeria.html">Galería</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white fw-bold" href="./contacto.html">Contacto</a>
@@ -49,40 +49,30 @@
             </div>
         </nav>
     </header>
-    <main class="main">
-        <h1 class="display-3 text-center">Racing Motorsports</h1>
-        <img class="main__img" src="../assets/img/racingfree2.jpg" alt="Racing" width="1700px" height="600">
+    <main class="container-fluid mt-5 mb-5 pt-5">
         <section>
-            <h2 class="tituloGaleria">Galería de Imagenes</h2>
-            <div class="contenedor">
-                <div class="imagen">
-                    <img src="../assets/img/galeria1.jpg" alt="">
-                </div>
-                <div class="imagen">
-                    <img src="../assets/img/galeria2.jpg" alt="">
-                </div>
-                <div class="imagen">
-                    <img src="../assets/img/galeria3.jpg" alt="">
-                </div>
-                <div class="imagen">
-                    <img src="../assets/img/galeria4.jpg" alt="">
-                </div>
-                <div class="imagen">
-                    <img src="../assets/img/galeria5.jpg" alt="">
-                </div>
-                <div class="imagen">
-                    <img src="../assets/img/galeria6.jpg" alt="">
-                </div>
-                <div class="imagen">
-                    <img src="../assets/img/galeria7.jpg" alt="">
-                </div>
-                <div class="imagen">
-                    <img src="../assets/img/galeria8.jpg" alt="">
-                </div>
+            <div class="mt-5 mb-5">
+                <h1 class="display-2 text-center">Racing Motorsports</h1>
+                <img class="imagenPrincipal" src="../assets/img/racingfree2.jpg" alt="Imagen Principal">
             </div>
         </section>
+        <section class="mt-5 mb-5">
+            <h2 class="text-center display-4 mt-5 mb-5">Galería de Imagenes</h2>
+            <section class="container">
+                <div class="row justify-content-around">
+                  <div class="col-lg-6 col-md-10 col-sm-12 img-thumbnail"><img class="cover filtro imgHover" src="../assets/img/galeria1.jpg" alt="" width="100%" height="100%"></div>
+                  <div class="col-lg-6 col-md-10 col-sm-12 img-thumbnail"><img class="cover filtro imgHover" src="../assets/img/galeria2.jpg" alt="" width="100%" height="100%"></div>
+                  <div class="col-lg-6 col-md-10 col-sm-12 img-thumbnail"><img class="cover filtro imgHover" src="../assets/img/galeria3.jpg" alt="" width="100%" height="100%"></div>
+                  <div class="col-lg-6 col-md-10 col-sm-12 img-thumbnail"><img class="cover filtro imgHover" src="../assets/img/galeria4.jpg" alt="" width="100%" height="100%"></div>
+                  <div class="col-lg-6 col-md-10 col-sm-12 img-thumbnail"><img class="cover filtro imgHover" src="../assets/img/galeria5.jpg" alt="" width="100%" height="100%"></div>
+                  <div class="col-lg-6 col-md-10 col-sm-12 img-thumbnail"><img class="cover filtro imgHover" src="../assets/img/galeria6.jpg" alt="" width="100%" height="100%"></div>
+                  <div class="col-lg-6 col-md-10 col-sm-12 img-thumbnail"><img class="cover filtro imgHover" src="../assets/img/galeria7.jpg" alt="" width="100%" height="100%"></div>
+                  <div class="col-lg-6 col-md-10 col-sm-12 img-thumbnail"><img class="cover filtro imgHover" src="../assets/img/galeria8.jpg" alt="" width="100%" height="100%"></div>
+                </div>
+            </section>
+            
     </main>
-    <footer class="footer">
+    <footer class="container-fluid footer">
         <p class="footer__texto">Racing Motorsports</p>
         <div class="footer__div">
             <a href="https://www.instagram.com/" target="_blank"><i
