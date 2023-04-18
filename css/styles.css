@@ -69,37 +69,38 @@
     margin-top: 10rem;
 }
 
-.footer__texto {
+.footerTexto {
     font-size: 3rem;
     color: rgb(200, 200, 200);
     text-align: center;
-    padding: 2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 0;
 }
 
-.footer__div {
+.footerDiv {
     text-align: center;
     margin-bottom: 4rem;
     margin-top: 0;
 }
 
-.footer__div__ancla {
+.footerIcono {
     color: rgb(200, 200, 200);
     font-size: 3rem;
     margin: 1.5rem;
     padding-bottom: 2rem;
 }
 
-.footer__ul {
+.footerUl {
     text-align: center;
 }
 
-.footer__ul__li {
+.footerLi {
     display: inline-block;
     list-style: none;
     padding: 1.5rem;
 }
 
-.footer__texto--derechosreservados {
+.footerDerechosReservados {
     font-size: 1rem;
     margin-top: 2rem;
     color: rgb(200, 200, 200);
@@ -125,11 +126,7 @@
 
 /* estilado pilotos.html */ 
 
-.tamañoCardsPilotos {
-    width: 25%;
-    height: 20%;
-    flex-wrap: wrap;
-}
+
 
 /*estilado galeria.html*/
 
