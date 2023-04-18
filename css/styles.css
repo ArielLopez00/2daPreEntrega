@@ -107,6 +107,7 @@
 }
 
 /*estilado galeria.html*/
+
 .cover{
     object-fit: cover;
   }
@@ -143,4 +144,17 @@
     z-index: 10;
     cursor:zoom-in;
     align-self: center;
+  }
+
+
+  /*estilado formulario*/
+
+  .formulario {
+    width: 100%;
+    background-color: rgba(134, 134, 134, 0.575);
+  }
+
+  .mapa {
+    height: 300px;
+    width: 100%;
   }

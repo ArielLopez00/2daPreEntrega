@@ -27,8 +27,8 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse m-5 p-5" id="navbarNav">
-                    <ul class="navbar-nav w-100 justify-content-end fs-4">
+                <div class="collapse navbar-collapse mt-5 pt-5" id="navbarNav">
+                    <ul class="navbar-nav w-100 justify-content-end fs-4 p-5">
                         <li class="nav-item">
                             <a class="nav-link text-white fw-bold" href="../index.html">Inicio</a>
                         </li>
@@ -49,34 +49,63 @@
             </div>
         </nav>
     </header>
-    <main class="main">
-        <h1 class="display-3 text-center">Racing Motorsports</h1>
-        <img class="main__img" src="../assets/img/racingfree2.jpg" alt="Racing" width="1700px" height="600">
-        <h2>Contacto</h2>
-        <div>
-            <h2>Oficina</h2>
-            <p><b>Dirección:</b>Lola Mora 420 Piso 4 <br>
-                <b>Ciudad:</b> Puerto Madero - Buenos Aires <br>
-                <b>Telefono:</b> +54 9 4522-9795
-            </p>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.432515820383!2d-58.3609175!3d-34.6185088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334d08600caff%3A0x448efb6a334ac90f!2sLola%20Mora%20420%2C%20C1107DDB%20CABA!5e0!3m2!1ses-419!2sar!4v1678577529517!5m2!1ses-419!2sar"
-                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div>
-            <h2>Formulario de Contacto</h2>
-            <form>
-                <input type="text" placeholder="Nombre" required>
-                <input type="email" placeholder="Mail" required>
-                <textarea cols="30" rows="10" placeholder="Consulta"></textarea>
-                <input type="submit" placeholder="Envíar Mensaje">
-            </form>
-        </div>
-        <div>
-            <h2>Emails Contacto</h2>
-            <p><b>Email:</b> RacingMotorsports@hotmail.com</p>
-        </div>
+    <main class="main container-fluid">
+        <section>
+            <div class="mt-5 mb-5">
+                <h1 class="display-2 text-center">Racing Motorsports</h1>
+                <img class="imagenPrincipal" src="../assets/img/racingfree2.jpg" alt="Imagen Principal">
+            </div>
+        </section>
+        <section class="container justify-content-center">
+            <h2 class="text-center display-3 mt-5 mb-5">Contacto</h2>
+            <div class="text-center formulario">   
+                <div> 
+                    <h3 class="pt-5 text-center">Formulario de Contacto</h3>
+                </div>
+                <div>
+                    <form class="">
+                        <div class="m-4">
+                            <input type="text"  class="form-control" placeholder="Nombre" required>
+                        </div>
+                        <div class="m-4">
+                            <input type="text"  class="form-control" placeholder="Apellido" required>
+                        </div>
+                        <div class="m-4">
+                            <input type="email" class="form-control" placeholder="Correo Electronico" required>
+                        </div>
+                        <div class="m-4"> 
+                            <textarea class="form-control" rows="10" placeholder="Consulta"></textarea>
+                        </div>
+                        <div class="m-4 pb-4">
+                            <button class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        <section>
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <div class="card formulario">
+                        <h3 class="text-center fw-bold pt-3 display-6">Oficina</h3>
+                        <p class="p-1 text-center fw-bold"> Dirección:</p><p class="text-center">Mora 420 Piso 4</p>
+                        <p class="p-1 text-center fw-bold"> Ciudad:</p><p class="text-center">Puerto Madero - Buenos Aires</p>
+                        <p class="p-1 text-center fw-bold"> Telefono:</p><p class="text-center">+54 9 4522-9795</p>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.432515820383!2d-58.3609175!3d-34.6185088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334d08600caff%3A0x448efb6a334ac90f!2sLola%20Mora%20420%2C%20C1107DDB%20CABA!5e0!3m2!1ses-419!2sar!4v1678577529517!5m2!1ses-419!2sar"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" class="mapa">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 pt-4">
+                    <div class="card formulario">
+                        <h3 class="p-2 text-center fw-bold pt-3 display-6">Email Contacto</h3>
+                        <p class= "p-2 text-center fw-bold ">Email:</p><p class="text-center">RacingMotorsports@hotmail.com</p>
+                    </div>
+                </div> 
+            </div>
+        </section>
+            
     </main>
     <footer class="container-fluid footer">
         <p class="footer__texto">Racing Motorsports</p>
