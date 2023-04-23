@@ -1,1 +1,0 @@
-# 2daPreEntrega Hola Alan, como va?? Te dejo el README así no te volves loco descubriendo que corregir. Igualmente estile las 5 páginas incluyendo BS para ir adelantando también asi que si igualmente podes tirarme algun tip o comentario de todas mejor, sino no hay drama!! Las pags a corregir son Contacto y Galería. Un abrazo y gracias!!
