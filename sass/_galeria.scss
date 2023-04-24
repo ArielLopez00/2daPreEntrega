@@ -1,0 +1,40 @@
+
+section{
+    .imgGaleria {
+        width: $ancho;
+        height: 100%;
+    }
+    .cover {
+        object-fit: $cover;
+    }
+    .filtro {
+        filter: brightness(50%);
+    }
+    .imgHover {
+        transition: all 2s;
+        z-index: -1;
+        &:hover {
+            filter: brightness(100%);
+            transform: scale(1.5);
+            z-index: 10;
+            overflow: hidden;
+            cursor: zoom-in;
+            align-self: $center;
+        }
+        &:click {
+            filter: brightness(100%);
+            transform: scale(1.5);
+            z-index: 10;
+            cursor: zoom-in;
+            align-self: $center;
+        }
+        :focus {
+            filter: brightness(100%);
+            transform: scale(1.5);
+            z-index: 10;
+            cursor: zoom-in;
+            align-self: $center;
+        }
+    }
+}
+

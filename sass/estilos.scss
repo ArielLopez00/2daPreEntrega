@@ -2,79 +2,9 @@
 @import "reset.scss";
 @import "body.scss";
 @import "header.scss";
-@import "mainindex.scss";
+@import "index.scss";
+@import "nosotros.scss";
+@import "pilotos.scss";
+@import "galeria.scss";
+@import "contacto.scss";
 @import "footer.scss";
-
-
-/* estilado nosotros.html */
-
-
-.sectionExperiencias {
-    margin-top: 10rem;
-    margin-bottom: 15rem;
-}
-
-.card-img-top .imgExperiencias {
-    width: 100%;
-    height: 75%;
-    object-fit: cover;
-}
-
-
-/* estilado pilotos.html */
-
-
-
-/*estilado galeria.html*/
-
-.cover {
-    object-fit: cover;
-}
-
-.filtro {
-    filter: brightness(50%);
-}
-
-.imgHover {
-    transition: all 2s;
-    z-index: -1;
-}
-
-.imgHover:hover {
-    filter: brightness(100%);
-    transform: scale(1.5);
-    z-index: 10;
-    overflow: hidden;
-    cursor: zoom-in;
-    align-self: center;
-}
-
-.imgHover:click {
-    filter: brightness(100%);
-    transform: scale(1.5);
-
-    z-index: 10;
-    cursor: zoom-in;
-    align-self: center;
-}
-
-.imgHover:focus {
-    filter: brightness(100%);
-    transform: scale(1.5);
-    z-index: 10;
-    cursor: zoom-in;
-    align-self: center;
-}
-
-
-/*estilado formulario*/
-
-.formulario {
-    width: 100%;
-    background-color: rgba(134, 134, 134, 0.575);
-}
-
-.mapa {
-    height: 300px;
-    width: 100%;
-}

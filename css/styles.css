@@ -52,6 +52,58 @@ section .card-img-top {
     height: 400px;
   }
 }
+section .card-img-top .imgExperiencias {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+}
+
+section .imgGaleria {
+  width: 100%;
+  height: 100%;
+}
+section .cover {
+  object-fit: cover;
+}
+section .filtro {
+  filter: brightness(50%);
+}
+section .imgHover {
+  transition: all 2s;
+  z-index: -1;
+}
+section .imgHover:hover {
+  filter: brightness(100%);
+  transform: scale(1.5);
+  z-index: 10;
+  overflow: hidden;
+  cursor: zoom-in;
+  align-self: center;
+}
+section .imgHover:click {
+  filter: brightness(100%);
+  transform: scale(1.5);
+  z-index: 10;
+  cursor: zoom-in;
+  align-self: center;
+}
+section .imgHover :focus {
+  filter: brightness(100%);
+  transform: scale(1.5);
+  z-index: 10;
+  cursor: zoom-in;
+  align-self: center;
+}
+
+section .formulario {
+  width: 100%;
+  background-color: rgba(134, 134, 134, 0.575);
+}
+section .formulario .mapa {
+  height: 300px;
+  width: 100%;
+}
+
 .footer {
   background-color: rgb(27, 27, 27);
   margin-top: 10rem;
@@ -87,69 +139,6 @@ section .card-img-top {
   margin-top: 2rem;
   color: rgb(200, 200, 200);
   text-align: center;
-}
-
-/* estilado nosotros.html */
-.sectionExperiencias {
-  margin-top: 10rem;
-  margin-bottom: 15rem;
-}
-
-.card-img-top .imgExperiencias {
-  width: 100%;
-  height: 75%;
-  object-fit: cover;
-}
-
-/* estilado pilotos.html */
-/*estilado galeria.html*/
-.cover {
-  object-fit: cover;
-}
-
-.filtro {
-  filter: brightness(50%);
-}
-
-.imgHover {
-  transition: all 2s;
-  z-index: -1;
-}
-
-.imgHover:hover {
-  filter: brightness(100%);
-  transform: scale(1.5);
-  z-index: 10;
-  overflow: hidden;
-  cursor: zoom-in;
-  align-self: center;
-}
-
-.imgHover:click {
-  filter: brightness(100%);
-  transform: scale(1.5);
-  z-index: 10;
-  cursor: zoom-in;
-  align-self: center;
-}
-
-.imgHover:focus {
-  filter: brightness(100%);
-  transform: scale(1.5);
-  z-index: 10;
-  cursor: zoom-in;
-  align-self: center;
-}
-
-/*estilado formulario*/
-.formulario {
-  width: 100%;
-  background-color: rgba(134, 134, 134, 0.575);
-}
-
-.mapa {
-  height: 300px;
-  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

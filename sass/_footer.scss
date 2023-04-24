@@ -3,7 +3,7 @@
     margin-top: 10rem;
     .footerTexto {
         font-size: 3rem;
-        color: rgb(200, 200, 200);
+        color: $text-grey;
         text-align: $center;
         padding-top: 2.5rem;
         padding-bottom: 0;
@@ -13,7 +13,7 @@
         margin-bottom: 4rem;
         margin-top: 0;
         .footerIcono {
-            color: rgb(200, 200, 200);
+            color: $text-grey;
             font-size: 3rem;
             margin: 1.5rem;
             padding-bottom: 2rem;
@@ -30,7 +30,7 @@
     .footerDerechosReservados {
         font-size: 1rem;
         margin-top: 2rem;
-        color: rgb(200, 200, 200);
+        color: $text-grey;
         text-align: $center;
     }
 }

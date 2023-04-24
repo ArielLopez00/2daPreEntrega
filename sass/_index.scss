@@ -9,7 +9,7 @@ section {
     .card-img-top {
     width: $ancho;
     height: 75%;
-    object-fit: cover;
+    object-fit: $cover;
     }
 }
 
