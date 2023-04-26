@@ -1,8 +1,9 @@
-header {
+.header {
+    font-weight: map-get($tamaño-fuentes, medium);
+    font-size: map-get($sizes, 30);
     .logo {
     width: 300px;
     height: 150px;
     filter: drop-shadow(15px 15px 15px #ffffff);
     }
 }
-

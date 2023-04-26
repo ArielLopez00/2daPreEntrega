@@ -1,0 +1,54 @@
+
+$font-principal: 'Heebo', sans-serif;
+$fuente-secondary: 'Abel', sans-serif;
+$ancho :100%;
+$flex: flex;
+$center: center;
+$row: row;
+$space-around: space-around;
+$space-between:space-between;
+$column:column;
+$space-evenly:space-evenly;
+$text-align: center;
+$primary-color: rgb(0, 0, 0);
+$bg-color-grey: rgba(97, 86, 86, 0.705);
+$text-grey: rgb(200, 200, 200);
+$cover: cover;
+
+
+$bordes:(
+    borde-solid-principal :  1px solid black,
+    borde-solid-dospx:  2px solid black,
+    borde-solid-trespx:  3px solid black,
+    borde-solid-gray : 1px solid gray
+);
+
+$map-flex:(
+    flex: flex,
+    row: row,
+    column: column,
+    space-around: space-around,
+    space-between: space-between,
+    space-evenly: space-evenly,
+    space-center: center,
+    align-items-stretch: stretch
+);
+
+
+
+$tamaño-fuentes:(
+    thin:100,
+    light:300,
+    regular:400,
+    medium:500,
+    bold:700,
+    black:900
+);
+
+$sizes:(
+    catorce: 14px,
+    16 : 16px,
+    20 :20px,
+    10 : 10px,
+    30 : 30px
+);
