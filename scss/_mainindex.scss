@@ -12,7 +12,9 @@ section{
 .sectionCardsIndex {
     margin-top: 30px;
     .card-img-top {
-        @include img-card
+        width: $ancho;
+        height: 75%;
+        object-fit: $cover;
     }
     .anclaCardsIndex {
         color: $primary-color !important;

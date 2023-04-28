@@ -10,31 +10,12 @@ $space-between:space-between;
 $column:column;
 $space-evenly:space-evenly;
 $text-align: center;
-$primary-color:  rgb(46, 115, 115);
+$primary-color:  rgb(40, 140, 145);
 $bg-color-main: rgba(203, 253, 253, 0.836);
 $bg-color-header: rgb(166, 227, 233);
 $bg-color-footer: rgb(46, 140, 145);
 $text-color: rgb(0, 0, 0);
 $cover: cover;
-
-$bordes:(
-    borde-solid-principal :  1px solid black,
-    borde-solid-dospx:  2px solid black,
-    borde-solid-trespx:  3px solid black,
-    borde-solid-gray : 1px solid gray
-);
-
-$map-flex:(
-    flex: flex,
-    row: row,
-    column: column,
-    space-around: space-around,
-    space-between: space-between,
-    space-evenly: space-evenly,
-    space-center: center,
-    align-items-stretch: stretch
-);
-
 
 
 $tamaño-fuentes:(

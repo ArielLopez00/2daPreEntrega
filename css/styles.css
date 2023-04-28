@@ -22,9 +22,12 @@
   padding: 8px !important;
   padding-top: 6px !important;
   padding-bottom: 4px !important;
-  color: rgb(24, 130, 165);
-  background-color: rgba(255, 255, 255, 0.466) !important;
+  color: rgb(40, 140, 145);
+  background-color: rgb(255, 247, 247) !important;
   border-radius: 25% 10% !important;
+}
+.header .nav-item :hover {
+  color: rgb(40, 140, 145) !important;
 }
 .header .nav-item:active {
   position: relative !important;
@@ -35,22 +38,22 @@
   background-color: rgba(203, 253, 253, 0.836);
 }
 .body h1 {
-  color: rgb(46, 115, 115);
+  color: rgb(40, 140, 145);
   font-family: "Teko", sans-serif;
   font-size: 7rem;
 }
 .body h2 {
-  color: rgb(46, 115, 115);
+  color: rgb(40, 140, 145);
   font-family: "Teko", sans-serif;
   font-size: 5rem;
 }
 .body h3 {
-  color: rgb(46, 115, 115);
+  color: rgb(40, 140, 145);
   font-family: "Teko", sans-serif;
   font-size: 4rem;
 }
 .body h4 {
-  color: rgb(46, 115, 115);
+  color: rgb(40, 140, 145);
   font-family: "Teko", sans-serif;
   font-size: 3rem;
 }
@@ -81,7 +84,7 @@ section .imagenPrincipal {
   object-fit: cover;
 }
 .sectionCardsIndex .anclaCardsIndex {
-  color: rgb(46, 115, 115) !important;
+  color: rgb(40, 140, 145) !important;
   font-family: "Teko", sans-serif !important;
   font-size: 30px !important;
   font-weight: 700;
@@ -93,7 +96,7 @@ section .imagenPrincipal {
 .divIndex .subtitulosIndex, .divIndex .textoIndex .textoDestacado {
   text-align: center;
   font-family: "Teko", sans-serif;
-  color: rgb(46, 115, 115);
+  color: rgb(40, 140, 145);
   font-weight: 700;
 }
 .divIndex .textoIndex {
@@ -126,7 +129,7 @@ section .imagenPrincipal {
 section .textoDestacadoNosotros {
   font-family: "Teko", sans-serif;
   font-size: 28px !important;
-  color: rgb(46, 115, 115);
+  color: rgb(40, 140, 145);
   font-weight: 700;
 }
 

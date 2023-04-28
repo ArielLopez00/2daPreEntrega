@@ -3,12 +3,6 @@
     height: 250px;
 }
 
-@mixin img-card {
-    width: $ancho;
-    height: 75%;
-    object-fit: $cover;
-}
-
 @mixin flex-row-center{
 	display:$flex;
 	flex-direction:row;
