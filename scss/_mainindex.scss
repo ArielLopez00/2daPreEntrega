@@ -1,15 +1,42 @@
-section {
+
+section{
+    h1 {
+        margin-top: 50px;
+    }
     .imagenPrincipal {
         margin-bottom: 50px;
         width: $ancho;
     }
 }
 
-section {
+.sectionCardsIndex {
+    margin-top: 30px;
     .card-img-top {
     width: $ancho;
     height: 75%;
     object-fit: $cover;
+    }
+    .anclaCardsIndex {
+        color: $primary-color !important;
+        font-size: map-get($sizes, 25) !important;
+        font-weight: map-get($tamaño-fuentes, bold);
+    }
+}
+
+.divIndex {
+    margin-top: 5rem;
+    .subtitulosIndex {
+        text-align: center;
+        font-family: $font-titulos;
+        color: $primary-color;
+        font-weight: map-get($tamaño-fuentes, bold);
+    }
+    .textoIndex{
+        text-align: center;
+        .textoDestacado {
+            @extend .subtitulosIndex;
+            font-size: 28px !important;
+        }
     }
 }
 
@@ -21,8 +48,6 @@ section {
     }
 }
 
-
-
 @media (min-width:768px)  {
     section {
         .imagenPrincipal  {
@@ -30,7 +55,6 @@ section {
         }
     }
 }
-
 
 @media (min-width:992px)  {
     section {

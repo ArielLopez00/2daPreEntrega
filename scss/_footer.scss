@@ -1,36 +1,62 @@
-.footer {
-    background-color: rgb(27, 27, 27);
-    margin-top: 10rem;
-    .footerTexto {
-        font-size: 3rem;
-        color: $text-grey;
-        text-align: $center;
-        padding-top: 2.5rem;
-        padding-bottom: 0;
-    }
+footer {
+    margin-top: 5rem;
+    text-align: $center;
+    font-size: 1rem;
+    padding-top: 10px;
+    line-height: 15px;
+    background-color: $bg-color-footer;
+    color: #fff;
     .footerDiv {
-        text-align: $center;
-        margin-bottom: 4rem;
-        margin-top: 0;
+        margin-top: 3rem;
         .footerIcono {
-            color: $text-grey;
-            font-size: 3rem;
-            margin: 1.5rem;
-            padding-bottom: 2rem;
+        padding-bottom: 3rem;
+        color: white;
+        font-size: 1.5rem;
+        margin-left: 1.5rem;
         }
     }
-    .footerUl {
-        text-align: $center;
-        .footerLi {
-            display: inline-block;
+    ul {
+        a {
+            color: #fff !important;
+            &:hover {
+                color: #fff !important;
+            }
+        }
+        li {
             list-style: none;
-            padding: 1.5rem;
+            display: inline-block;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-family: $font-titulos;
+            font-size: 1.5rem;
+            font-weight: map-get($tamaño-fuentes, medium);
+            text-transform: uppercase;
+            position: relative;
+            &::after {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                width: 0%;
+                opacity: 0.2;
+                content: '.';
+                color: transparent;
+                background: white;
+                height: 1px;
+                transition: all .2s ease;
+            }
+            &:hover::after {
+                width: 80%;
+                opacity: 1;
+                transition: all .2s ease;
+            }
         }
     }
-    .footerDerechosReservados {
-        font-size: 1rem;
-        margin-top: 2rem;
-        color: $text-grey;
-        text-align: $center;
+    p{ 
+        padding-top: 2rem;
+        padding-bottom: .5rem;
+        color: white;
+        font-family: $font-titulos;
     }
 }

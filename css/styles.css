@@ -5,35 +5,99 @@
 }
 
 .header {
+  background-color: rgb(46, 140, 145);
   font-weight: 500;
-  font-size: 30px;
+  font-size: 25px;
+  height: 20vh;
 }
 .header .logo {
   width: 300px;
   height: 150px;
   filter: drop-shadow(15px 15px 15px #ffffff);
 }
-
-.body {
-  color: rgb(0, 0, 0);
-  background-color: rgba(97, 86, 86, 0.705);
-  background-image: url(../assets/img/fondo5.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  font-family: "Heebo", sans-serif;
+.header .nav-item {
+  padding-left: 20px;
+}
+.header .nav-item .nav-link {
+  color: rgb(24, 130, 165);
+  padding: 6px;
+  background-color: rgba(255, 255, 255, 0.466) !important;
+  border-radius: 25% 10% !important;
+}
+.header .nav-item:active {
+  position: relative !important;
+  top: 3px !important;
 }
 
+.body {
+  background-color: rgba(203, 253, 253, 0.836);
+}
+.body h1 {
+  color: rgb(46, 115, 115);
+  font-family: "Teko", sans-serif;
+  font-size: 7rem !important;
+}
+.body h2 {
+  color: rgb(46, 115, 115);
+  font-family: "Teko", sans-serif;
+  font-size: 4rem !important;
+}
+.body h3 {
+  color: rgb(46, 115, 115);
+  font-family: "Teko", sans-serif;
+  font-size: 3rem !important;
+}
+.body h4 {
+  color: rgb(46, 115, 115);
+  font-family: "Teko", sans-serif;
+  font-size: 2rem !important;
+}
+.body p {
+  font-family: "Albert Sans", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+.body a {
+  text-decoration: none !important;
+}
+
+section h1 {
+  margin-top: 50px;
+}
 section .imagenPrincipal {
   margin-bottom: 50px;
   width: 100%;
 }
 
-section .card-img-top {
+.sectionCardsIndex {
+  margin-top: 30px;
+}
+.sectionCardsIndex .card-img-top {
   width: 100%;
   height: 75%;
   object-fit: cover;
+}
+.sectionCardsIndex .anclaCardsIndex {
+  color: rgb(46, 115, 115) !important;
+  font-size: 25px !important;
+  font-weight: 700;
+}
+
+.divIndex {
+  margin-top: 5rem;
+}
+.divIndex .subtitulosIndex, .divIndex .textoIndex .textoDestacado {
+  text-align: center;
+  font-family: "Teko", sans-serif;
+  color: rgb(46, 115, 115);
+  font-weight: 700;
+}
+.divIndex .textoIndex {
+  text-align: center;
+}
+.divIndex .textoIndex .textoDestacado {
+  font-size: 28px !important;
 }
 
 @media (min-width: 576px) {
@@ -56,6 +120,10 @@ section .card-img-top {
     height: 400px;
   }
 }
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
 section .imgGaleria {
   width: 100%;
   height: 100%;
@@ -102,41 +170,65 @@ section .formulario .mapa {
   width: 100%;
 }
 
-.footer {
-  background-color: rgb(27, 27, 27);
-  margin-top: 10rem;
-}
-.footer .footerTexto {
-  font-size: 3rem;
-  color: rgb(200, 200, 200);
+footer {
+  margin-top: 5rem;
   text-align: center;
-  padding-top: 2.5rem;
-  padding-bottom: 0;
-}
-.footer .footerDiv {
-  text-align: center;
-  margin-bottom: 4rem;
-  margin-top: 0;
-}
-.footer .footerDiv .footerIcono {
-  color: rgb(200, 200, 200);
-  font-size: 3rem;
-  margin: 1.5rem;
-  padding-bottom: 2rem;
-}
-.footer .footerUl {
-  text-align: center;
-}
-.footer .footerUl .footerLi {
-  display: inline-block;
-  list-style: none;
-  padding: 1.5rem;
-}
-.footer .footerDerechosReservados {
   font-size: 1rem;
-  margin-top: 2rem;
-  color: rgb(200, 200, 200);
-  text-align: center;
+  padding-top: 10px;
+  line-height: 15px;
+  background-color: rgb(46, 140, 145);
+  color: #fff;
+}
+footer .footerDiv {
+  margin-top: 3rem;
+}
+footer .footerDiv .footerIcono {
+  padding-bottom: 3rem;
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+}
+footer ul a {
+  color: #fff !important;
+}
+footer ul a:hover {
+  color: #fff !important;
+}
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Teko", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+}
+footer ul li::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  opacity: 0.2;
+  content: ".";
+  color: transparent;
+  background: white;
+  height: 1px;
+  transition: all 0.2s ease;
+}
+footer ul li:hover::after {
+  width: 80%;
+  opacity: 1;
+  transition: all 0.2s ease;
+}
+footer p {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  color: white;
+  font-family: "Teko", sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */
