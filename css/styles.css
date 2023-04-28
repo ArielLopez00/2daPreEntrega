@@ -8,7 +8,7 @@
   background-color: rgb(46, 140, 145);
   font-weight: 500;
   font-size: 25px;
-  height: 20vh;
+  height: auto;
 }
 .header .logo {
   width: 300px;
@@ -19,8 +19,10 @@
   padding-left: 20px;
 }
 .header .nav-item .nav-link {
+  padding: 8px !important;
+  padding-top: 6px !important;
+  padding-bottom: 4px !important;
   color: rgb(24, 130, 165);
-  padding: 6px;
   background-color: rgba(255, 255, 255, 0.466) !important;
   border-radius: 25% 10% !important;
 }
@@ -35,22 +37,22 @@
 .body h1 {
   color: rgb(46, 115, 115);
   font-family: "Teko", sans-serif;
-  font-size: 7rem !important;
+  font-size: 7rem;
 }
 .body h2 {
   color: rgb(46, 115, 115);
   font-family: "Teko", sans-serif;
-  font-size: 4rem !important;
+  font-size: 5rem;
 }
 .body h3 {
   color: rgb(46, 115, 115);
   font-family: "Teko", sans-serif;
-  font-size: 3rem !important;
+  font-size: 4rem;
 }
 .body h4 {
   color: rgb(46, 115, 115);
   font-family: "Teko", sans-serif;
-  font-size: 2rem !important;
+  font-size: 3rem;
 }
 .body p {
   font-family: "Albert Sans", sans-serif;
@@ -80,7 +82,8 @@ section .imagenPrincipal {
 }
 .sectionCardsIndex .anclaCardsIndex {
   color: rgb(46, 115, 115) !important;
-  font-size: 25px !important;
+  font-family: "Teko", sans-serif !important;
+  font-size: 30px !important;
   font-weight: 700;
 }
 
@@ -120,8 +123,11 @@ section .imagenPrincipal {
     height: 400px;
   }
 }
-h1 {
-  font-family: "Courier New", Courier, monospace;
+section .textoDestacadoNosotros {
+  font-family: "Teko", sans-serif;
+  font-size: 28px !important;
+  color: rgb(46, 115, 115);
+  font-weight: 700;
 }
 
 section .imgGaleria {
@@ -164,6 +170,10 @@ section .imgHover :focus {
 section .formulario {
   width: 100%;
   background-color: rgba(134, 134, 134, 0.575);
+}
+section .formulario .btn {
+  background-color: rgb(46, 140, 145) !important;
+  border-color: rgb(46, 140, 145) !important;
 }
 section .formulario .mapa {
   height: 300px;
@@ -226,9 +236,10 @@ footer ul li:hover::after {
 }
 footer p {
   padding-top: 2rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.8rem;
   color: white;
-  font-family: "Teko", sans-serif;
+  font-family: "Teko", sans-serif !important;
+  font-weight: bold !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

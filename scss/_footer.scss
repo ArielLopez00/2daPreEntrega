@@ -55,8 +55,9 @@ footer {
     }
     p{ 
         padding-top: 2rem;
-        padding-bottom: .5rem;
+        padding-bottom: .8rem;
         color: white;
-        font-family: $font-titulos;
+        font-family: $font-titulos !important;
+        font-weight: bold !important;
     }
 }

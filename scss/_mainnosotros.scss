@@ -1,3 +1,8 @@
-h1 {
-    font-family: 'Courier New', Courier, monospace;
+section {
+    .textoDestacadoNosotros {
+        font-family: $font-titulos;
+        font-size: 28px !important;
+        color: $primary-color;
+        font-weight: map-get($tamaño-fuentes, bold);
+    }
 }
