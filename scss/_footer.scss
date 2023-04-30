@@ -1,4 +1,5 @@
 .footer {
+    margin-top: 10rem;
     background-color: $bg-color-footer;
     .footerDiv {
         margin-top: 3rem;
@@ -52,7 +53,8 @@
         justify-content: $center;
         .textoFooter{ 
             color: white;
-            font-family: $font-titulos !important;
+            font-size: .9rem !important;
+            font-family: $fuente-parrafos !important;
             font-weight: medium !important;
         }
     }

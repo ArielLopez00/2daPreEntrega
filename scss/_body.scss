@@ -1,5 +1,14 @@
 .body {
     background-color: $bg-color-main;
+    section{
+        h1 {
+            margin-top: 50px;
+        }
+        .imagenPrincipal {
+            margin-bottom: 50px;
+            width: $ancho;
+        }
+    }
     h1 {
         color: $primary-color;
         font-family: $font-titulos;

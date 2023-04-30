@@ -37,6 +37,13 @@
 .body {
   background-color: rgba(203, 253, 253, 0.836);
 }
+.body section h1 {
+  margin-top: 50px;
+}
+.body section .imagenPrincipal {
+  margin-bottom: 50px;
+  width: 100%;
+}
 .body h1 {
   color: rgb(40, 140, 145);
   font-family: "Teko", sans-serif;
@@ -65,14 +72,6 @@
 }
 .body a {
   text-decoration: none !important;
-}
-
-section h1 {
-  margin-top: 50px;
-}
-section .imagenPrincipal {
-  margin-bottom: 50px;
-  width: 100%;
 }
 
 .sectionCardsIndex {
@@ -126,7 +125,10 @@ section .imagenPrincipal {
     height: 400px;
   }
 }
-section .textoDestacadoNosotros {
+section .textoNosotros {
+  padding: 16px;
+}
+section .textoNosotros .textoDestacadoNosotros {
   font-family: "Teko", sans-serif;
   font-size: 28px !important;
   color: rgb(40, 140, 145);
@@ -184,6 +186,7 @@ section .formulario .mapa {
 }
 
 .footer {
+  margin-top: 10rem;
   background-color: rgb(46, 140, 145);
 }
 .footer .footerDiv {
@@ -245,7 +248,8 @@ section .formulario .mapa {
 }
 .footer .derechosReservados .textoFooter {
   color: white;
-  font-family: "Teko", sans-serif !important;
+  font-size: 0.9rem !important;
+  font-family: "Albert Sans", sans-serif !important;
   font-weight: medium !important;
 }
 

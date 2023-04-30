@@ -1,8 +1,11 @@
 section {
-    .textoDestacadoNosotros {
-        font-family: $font-titulos;
-        font-size: 28px !important;
-        color: $primary-color;
-        font-weight: map-get($tamaño-fuentes, bold);
+    .textoNosotros {
+        padding: 16px;
+        .textoDestacadoNosotros {
+            font-family: $font-titulos;
+            font-size: 28px !important;
+            color: $primary-color;
+            font-weight: map-get($tamaño-fuentes, bold);
+        }
     }
 }
