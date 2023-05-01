@@ -1,3 +1,5 @@
+/* cosas generales */
+
 .body {
     background-color: $bg-color-main;
     section{
@@ -5,8 +7,10 @@
             margin-top: 50px;
         }
         .imagenPrincipal {
+            height: 700px;
             margin-bottom: 50px;
             width: $ancho;
+            border-radius: 20px;
         }
     }
     h1 {
@@ -41,5 +45,29 @@
     
     a {
         text-decoration: none !important;
+    }
+}
+
+@media (max-width:768px)  {
+    section {
+        .imagenPrincipal  {
+        height: 300px;
+        }
+    }
+}
+
+@media (max-width:992px)  {
+    section {
+        .imagenPrincipal  {
+        height: 300px;
+        }
+    }
+}
+
+@media (max-width:1200px)  {
+    section {
+        .imagenPrincipal  {
+        height: 350px;
+        }
     }
 }

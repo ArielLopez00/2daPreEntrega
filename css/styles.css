@@ -34,6 +34,7 @@
   top: 3px !important;
 }
 
+/* cosas generales */
 .body {
   background-color: rgba(203, 253, 253, 0.836);
 }
@@ -41,8 +42,10 @@
   margin-top: 50px;
 }
 .body section .imagenPrincipal {
+  height: 700px;
   margin-bottom: 50px;
   width: 100%;
+  border-radius: 20px;
 }
 .body h1 {
   color: rgb(40, 140, 145);
@@ -74,6 +77,21 @@
   text-decoration: none !important;
 }
 
+@media (max-width: 768px) {
+  section .imagenPrincipal {
+    height: 300px;
+  }
+}
+@media (max-width: 992px) {
+  section .imagenPrincipal {
+    height: 300px;
+  }
+}
+@media (max-width: 1200px) {
+  section .imagenPrincipal {
+    height: 350px;
+  }
+}
 .sectionCardsIndex {
   margin-top: 30px;
 }
@@ -105,26 +123,6 @@
   font-size: 28px !important;
 }
 
-@media (min-width: 576px) {
-  section .imagenPrincipal {
-    height: 200px;
-  }
-}
-@media (min-width: 768px) {
-  section .imagenPrincipal {
-    height: 260px;
-  }
-}
-@media (min-width: 992px) {
-  section .imagenPrincipal {
-    height: 320px;
-  }
-}
-@media (min-width: 1200px) {
-  section .imagenPrincipal {
-    height: 400px;
-  }
-}
 section .textoNosotros {
   padding: 16px;
 }

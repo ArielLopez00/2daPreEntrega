@@ -30,35 +30,3 @@
         }
     }
 }
-
-@media (min-width:576px){
-    section {
-        .imagenPrincipal  {
-        height: 200px;
-        }
-    }
-}
-
-@media (min-width:768px)  {
-    section {
-        .imagenPrincipal  {
-        height: 260px;
-        }
-    }
-}
-
-@media (min-width:992px)  {
-    section {
-        .imagenPrincipal  {
-        height: 320px;
-        }
-    }
-}
-
-@media (min-width:1200px)  {
-    section {
-        .imagenPrincipal  {
-        height: 400px;
-        }
-    }
-}
