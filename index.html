@@ -17,6 +17,8 @@
     <link rel="icon" href="./assets/img/favicon.ico">
     <script src="https://kit.fontawesome.com/d33b4f4da5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/styles.css">
     <title>Racing Motorsports - Inicio</title>
 </head>
@@ -58,7 +60,7 @@
     <main class="container-fluid mainIndex">
         <section>
             <div>
-                <h1 class="text-center fw-bold">Racing Motorsports</h1>
+                <h1 class="text-center fw-bold animate__animated animate__bounceIn animate__slow animate__repeat-2">Racing Motorsports</h1>
                 <img class="imagenPrincipal" 
                 src="./assets/img/cars-640.jpg"
                 srcset="./assets/img/cars-640.jpg 640w, ./assets/img/cars-1280.jpg 1280w, ./assets/img/cars-1920.jpg 1920w"
@@ -98,7 +100,7 @@
             </section>
             <section class="container">
                 <div class="divIndex">
-                    <h2 class="subtitulosIndex">Empresa</h2>
+                    <h2 class="subtitulosIndex animate__animated animate__backInLeft animate__delay-2s animate__slow">Empresa</h2>
                     <p class="textoIndex">
                         Racing Motorsports, la empresa que se dedica al <span class="textoDestacado">asesoramiento de los pilotos de carreras como
                         ninguna otra</span>. Contamos con un equipo de profesionales con una amplia experiencia y conocimiento
@@ -107,7 +109,7 @@
                     </p>
                 </div>
                 <div class="divIndex">
-                    <h2 class="subtitulosIndex">Misión</h2>
+                    <h2 class="subtitulosIndex animate__animated animate__backInRight animate__delay-3s animate__slow">Misión</h2>
                     <p class="textoIndex">
                         Asesoramos y acompañamos día a día a cada piloto, no solo en el ámbito deportivo,<span class="textoDestacado">sino tambien
                         en
@@ -116,7 +118,7 @@
                     </p>
                 </div>
                 <div class="divIndex">
-                    <h2 class="subtitulosIndex">Visión</h2>
+                    <h2 class="subtitulosIndex animate__animated animate__backInUp animate__delay-4s animate__slow">Visión</h2>
                     <p class="textoIndex">
                         Impactar positivamente en nuestra sociedad a través de <span class="textoDestacado">la contribución al desarrollo integral de
                         jóvenes pilotos</span> , logrando de esta manera formar buenos referentes.
@@ -145,6 +147,10 @@
     </footer>
 
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
