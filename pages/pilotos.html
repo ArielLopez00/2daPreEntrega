@@ -17,6 +17,7 @@
     <script src="https://kit.fontawesome.com/d33b4f4da5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="../css/styles.css">
     <title>Pilotos - Racing Motorsports</title>
 </head>
@@ -58,17 +59,17 @@
     <main class="container-fluid">
         <section>
             <div class="mt-5 mb-5">
-                <h1 class="display-2 text-center fw-bold text-center fw-bold animate__animated animate__bounceIn animate__slow animate__repeat-2">Racing Motorsports</h1>
+                <h1 class="display-2 text-center fw-bold text-center">Racing Motorsports</h1>
                 <img class="imagenPrincipal" src="../assets/img/cars-1920.jpg" alt="Imagen Principal">
             </div>
         </section>
         <section class="container">
-            <h2 class="text-center display-4 p-4 fw-bold">Nuestros Pilotos</h2>
+            <h2 class="text-center display-4 p-4 fw-bold animate__animated animate__headShake animate__slow animate__infinite">Nuestros Pilotos</h2>
             <p class="text-center">Te presentamos a los verdaderos protagonistas y estrellas de nuestra empresa. Sin ellos, Racing Motorsports, no sería ni por casualidad lo que es hoy en día!! </p>
-            <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+            <div class="row row-cols-1 row-cols-md-2 g-4 mt-3 contenedorAnimaciones">
                 <div class="col">
-                    <div class="card animate__animated animate__rotateInUpLeft animate__delay-3s">
-                        <img src="../assets/img/Piloto1_edited.jpg" class="card-img-top imgExperiencias" alt="...">
+                    <div data-aos="slide-right" data-aos-offset="300" class="card">
+                        <img src="../assets/img/Piloto1_edited.jpg" class="card-img-top imgExperiencias" alt="Lautaro Gonzales">
                         <div class="card-body">
                             <h3 class="card-title text-center fw-bold">Lautaro Gonzales</h3>
                             <ul class="list-group list-group-flush">
@@ -81,8 +82,8 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card animate__animated animate__rotateInUpRight animate__delay-3s">
-                        <img src="../assets/img/Piloto2_edited.jpg" class="card-img-top imgExperiencias" alt="...">
+                    <div data-aos="slide-left" data-aos-offset="300" class="card">
+                        <img src="../assets/img/Piloto2_edited.jpg" class="card-img-top imgExperiencias" alt="Joel Tucker">
                         <div class="card-body">
                             <h3 class="card-title text-center fw-bold">Joel Tucker</h3>
                             <ul class="list-group list-group-flush">
@@ -95,8 +96,8 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card animate__animated animate__rotateInUpLeft animate__delay-4s">
-                        <img src="../assets/img/Piloto3_edited.jpg" class="card-img-top imgExperiencias" alt="...">
+                    <div data-aos="slide-right" data-aos-offset="300" class="card">
+                        <img src="../assets/img/Piloto3_edited.jpg" class="card-img-top imgExperiencias" alt="Zach Gordon">
                         <div class="card-body">
                             <h3 class="card-title text-center fw-bold">Zach Gordon</h3>
                             <ul class="list-group list-group-flush">
@@ -109,8 +110,8 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card animate__animated animate__rotateInUpRight animate__delay-4s">
-                        <img src="../assets/img/Piloto2Exp.jpg" class="card-img-top imgExperiencias" alt="...">
+                    <div data-aos="slide-left" data-aos-offset="300" class="card">
+                        <img src="../assets/img/Piloto2Exp.jpg" class="card-img-top imgExperiencias" alt="Lando Hamilton">
                         <div class="card-body">
                             <h3 class="card-title text-center fw-bold">Lando Hamilton</h3>
                             <ul class="list-group list-group-flush">
@@ -123,8 +124,8 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card animate__animated animate__rotateInUpLeft animate__delay-5s">
-                        <img src="../assets/img/Piloto5.jpg" class="card-img-top imgExperiencias" alt="...">
+                    <div data-aos="slide-right" data-aos-offset="300" class="card">
+                        <img src="../assets/img/Piloto5.jpg" class="card-img-top imgExperiencias" alt="Franco Guevara">
                         <div class="card-body">
                             <h3 class="card-title text-center fw-bold">Franco Guevara</h3>
                             <ul class="list-group list-group-flush">
@@ -137,8 +138,8 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card animate__animated animate__rotateInUpRight animate__delay-5s">
-                        <img src="../assets/img/Piloto1Exp.jpg" class="card-img-top imgExperiencias" alt="...">
+                    <div data-aos="slide-left" data-aos-offset="300" class="card">
+                        <img src="../assets/img/Piloto1Exp.jpg" class="card-img-top imgExperiencias" alt="Luis Peréz">
                         <div class="card-body">
                             <h3 class="card-title text-center fw-bold">Luis Peréz</h3>
                             <ul class="list-group list-group-flush">
@@ -174,6 +175,11 @@
     </footer>
 
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>

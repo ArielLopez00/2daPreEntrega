@@ -3,7 +3,7 @@ section {
         padding: 16px;
         .textoDestacadoNosotros {
             font-family: $font-titulos;
-            font-size: 28px !important;
+            font-size: 28px;
             color: $primary-color;
             font-weight: map-get($tamaño-fuentes, bold);
         }

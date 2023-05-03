@@ -3,8 +3,8 @@ section {
     width: $ancho;
     background-color: rgba(134, 134, 134, 0.575);
     .btn {
-        background-color: $bg-color-footer !important;
-        border-color: $bg-color-footer !important;
+        background-color: $bg-color-footer;
+        border-color: $bg-color-footer;
     }
     .mapa {
         height: 300px;

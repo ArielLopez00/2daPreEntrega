@@ -7,9 +7,9 @@
         object-fit: $cover;
     }
     .anclaCardsIndex {
-        color: $primary-color !important;
-        font-family: $font-titulos !important;
-        font-size: map-get($sizes, 30) !important;
+        color: $primary-color;
+        font-family: $font-titulos;
+        font-size: map-get($sizes, 30);
         font-weight: map-get($tamaño-fuentes, bold);
     }
 }
@@ -26,7 +26,7 @@
         text-align: center;
         .textoDestacado {
             @extend .subtitulosIndex;
-            font-size: 28px !important;
+            font-size: 28px;
         }
     }
 }

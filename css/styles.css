@@ -19,19 +19,19 @@
   padding-left: 20px;
 }
 .header .nav-item .nav-link {
-  padding: 8px !important;
-  padding-top: 6px !important;
-  padding-bottom: 4px !important;
+  padding: 8px;
+  padding-top: 6px;
+  padding-bottom: 4px;
   color: rgb(40, 140, 145);
-  background-color: rgb(255, 247, 247) !important;
-  border-radius: 25% 10% !important;
+  background-color: rgb(255, 247, 247);
+  border-radius: 25% 10%;
 }
 .header .nav-item :hover {
-  color: rgb(40, 140, 145) !important;
+  color: rgb(40, 140, 145);
 }
 .header .nav-item:active {
-  position: relative !important;
-  top: 3px !important;
+  position: relative;
+  top: 3px;
 }
 
 /* cosas generales */
@@ -76,20 +76,18 @@
 .body a {
   text-decoration: none !important;
 }
+.body .contenedorAnimaciones {
+  overflow: hidden;
+}
 
 @media (max-width: 768px) {
   section .imagenPrincipal {
-    height: 300px;
+    height: 300px !important;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 1280px) {
   section .imagenPrincipal {
-    height: 300px;
-  }
-}
-@media (max-width: 1200px) {
-  section .imagenPrincipal {
-    height: 350px;
+    height: 400px !important;
   }
 }
 .sectionCardsIndex {
@@ -101,9 +99,9 @@
   object-fit: cover;
 }
 .sectionCardsIndex .anclaCardsIndex {
-  color: rgb(40, 140, 145) !important;
-  font-family: "Teko", sans-serif !important;
-  font-size: 30px !important;
+  color: rgb(40, 140, 145);
+  font-family: "Teko", sans-serif;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -120,7 +118,7 @@
   text-align: center;
 }
 .divIndex .textoIndex .textoDestacado {
-  font-size: 28px !important;
+  font-size: 28px;
 }
 
 section .textoNosotros {
@@ -128,11 +126,12 @@ section .textoNosotros {
 }
 section .textoNosotros .textoDestacadoNosotros {
   font-family: "Teko", sans-serif;
-  font-size: 28px !important;
+  font-size: 28px;
   color: rgb(40, 140, 145);
   font-weight: 700;
 }
 
+/* no me hizo falta anidar ya que utilice todo con BS*/
 section .imgGaleria {
   width: 100%;
   height: 100%;
@@ -175,8 +174,8 @@ section .formulario {
   background-color: rgba(134, 134, 134, 0.575);
 }
 section .formulario .btn {
-  background-color: rgb(46, 140, 145) !important;
-  border-color: rgb(46, 140, 145) !important;
+  background-color: rgb(46, 140, 145);
+  border-color: rgb(46, 140, 145);
 }
 section .formulario .mapa {
   height: 300px;
@@ -246,9 +245,9 @@ section .formulario .mapa {
 }
 .footer .derechosReservados .textoFooter {
   color: white;
-  font-size: 0.9rem !important;
-  font-family: "Albert Sans", sans-serif !important;
-  font-weight: medium !important;
+  font-size: 0.9rem;
+  font-family: "Albert Sans", sans-serif;
+  font-weight: medium;
 }
 
 /*# sourceMappingURL=styles.css.map */

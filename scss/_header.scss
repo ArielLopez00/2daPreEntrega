@@ -11,19 +11,19 @@
     .nav-item {
         padding-left: 20px;
         .nav-link {
-        padding: 8px !important;
-        padding-top: 6px !important;
-        padding-bottom: 4px !important;
+        padding: 8px;
+        padding-top: 6px;
+        padding-bottom: 4px;
         color: $primary-color;
-        background-color: rgb(255, 247, 247) !important;
-        border-radius: 25% 10% !important;
+        background-color: rgb(255, 247, 247);
+        border-radius: 25% 10%;
         }
         & :hover {
-            color: $primary-color !important;
+            color: $primary-color;
         }
         &:active {
-            position: relative !important;
-            top: 3px !important;
+            position: relative;
+            top: 3px;
         }
     }
 }
