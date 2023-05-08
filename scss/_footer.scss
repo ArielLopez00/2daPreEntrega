@@ -1,8 +1,6 @@
 .footer {
-    margin-top: 10rem;
     background-color: $bg-color-footer;
     .footerDiv {
-        margin-top: 3rem;
         @include flexbox ($center, $center, $row);
         .footerIcono {
         font-size: 35px;

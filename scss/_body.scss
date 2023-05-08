@@ -7,7 +7,7 @@
             margin-top: 50px;
         }
         .imagenPrincipal {
-            height: 700px;
+            height: 650px;
             margin-bottom: 50px;
             width: $ancho;
             border-radius: 20px;
@@ -54,15 +54,15 @@
 @media (max-width:768px)  {
     section {
         .imagenPrincipal  {
-        height: 300px !important; 
+        height: 260px !important; 
         }
     }
 }
 
-@media (max-width:1280px)  {
+@media  (min-width: 768px) and (max-width: 1280px) {
     section {
         .imagenPrincipal  {
-        height: 400px !important;
+        height: 380px !important;
         }
     }
 }

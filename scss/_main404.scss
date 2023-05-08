@@ -1,0 +1,35 @@
+.main404{
+    overflow: hidden;
+    .bgImg{
+        padding: 0;
+        height: 700px;
+        background: url(../assets/img/fondo404.jpg);
+        background-size: cover;
+        background-position: fixed;
+        background-repeat: no-repeat;
+    }
+    .texto404 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        .ancla404{
+            color: $primary-color;
+        }
+    }
+}
+
+@media (max-width:768px)  {
+    .main404 {
+        overflow: hidden;
+    }
+    .bgImg{
+        padding: 0;
+        height: 400px !important;
+        background: url(../assets/img/fondo404.jpg);
+        background-size: cover;
+        background-position: fixed;
+        background-repeat: no-repeat;
+    }
+}
