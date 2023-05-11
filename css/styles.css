@@ -241,6 +241,9 @@ section .formulario .mapa {
   padding: 20px;
   color: white;
 }
+.footer .footerDiv .footerIcono:hover {
+  color: black;
+}
 .footer .footerUl {
   display: flex;
   justify-content: center;
